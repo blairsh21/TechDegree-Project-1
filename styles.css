@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -110,14 +110,15 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: #ce98e0;
+  color: #451f6d;
   padding: 5px 10px;
   margin: 2px;
+  border: 2px solid #451f6d;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #d0afff;
 }
 
 footer {
